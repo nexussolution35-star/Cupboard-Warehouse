@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 380" role="img" aria-label="Cupboard Warehouse — Think Kitchens, Think Cupboard Warehouse">
+  <defs>
+    <path id="cwf-top" d="M 192 230 A 118 118 0 0 1 428 230" fill="none"/>
+    <path id="cwf-bot" d="M 192 230 A 118 118 0 0 0 428 230" fill="none"/>
+    <linearGradient id="cwf-band" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a8f43"/>
+      <stop offset="1" stop-color="#2c7a34"/>
+    </linearGradient>
+  </defs>
+  <text x="150" y="58" font-family="'Brush Script MT','Segoe Script',cursive" font-style="italic" font-size="44" fill="#3a3a3a" transform="rotate(-7 150 58)">Think Kitchens</text>
+  <text x="232" y="118" font-family="'Brush Script MT','Segoe Script',cursive" font-style="italic" font-size="44" fill="#3a3a3a" transform="rotate(-5 232 118)">Think&#8230;</text>
+  <circle cx="310" cy="230" r="118" fill="#cfe8b9"/>
+  <circle cx="310" cy="230" r="118" fill="none" stroke="#9ccf7e" stroke-width="3"/>
+  <circle cx="310" cy="230" r="58" fill="#ffffff"/>
+  <circle cx="310" cy="230" r="58" fill="none" stroke="#9ccf7e" stroke-width="3"/>
+  <text font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="30" letter-spacing="1" fill="#2c7a34">
+    <textPath href="#cwf-top" startOffset="50%" text-anchor="middle">Kitchens</textPath>
+  </text>
+  <text font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="30" letter-spacing="1" fill="#2c7a34">
+    <textPath href="#cwf-bot" startOffset="50%" text-anchor="middle">Wardrobes</textPath>
+  </text>
+  <rect x="40" y="200" width="540" height="64" rx="12" fill="url(#cwf-band)" stroke="#1f5e23" stroke-width="3"/>
+  <rect x="51" y="211" width="518" height="42" rx="7" fill="none" stroke="#bfe3a0" stroke-width="2" opacity="0.7"/>
+  <text x="310" y="240" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="31" letter-spacing="2.5" fill="#ffffff">CUPBOARD WAREHOUSE</text>
+</svg>
