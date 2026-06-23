@@ -167,7 +167,9 @@ header.site{position:sticky;top:0;z-index:60;}
 .hero-sub{color:#eef3ee;font-size:17px;max-width:430px;margin:18px 0 24px;text-shadow:0 1px 6px rgba(0,0,0,.4);}
 .rating-row{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:24px;}
 .rating-chip{display:flex;align-items:center;gap:10px;padding:9px 14px;background:rgba(255,255,255,.1);
-  border:1px solid rgba(255,255,255,.22);backdrop-filter:blur(8px);border-radius:2px;}
+  border:1px solid rgba(255,255,255,.22);backdrop-filter:blur(8px);border-radius:2px;
+  color:#fff;text-decoration:none;transition:.2s ease;}
+a.rating-chip:hover{background:rgba(255,255,255,.2);border-color:rgba(255,255,255,.4);transform:translateY(-1px);}
 .rating-chip .stars{color:#f7c948;font-size:13px;letter-spacing:1px;line-height:1;}
 .rating-chip b{font-size:13px;}
 .rating-chip small{display:block;font-size:10px;color:rgba(255,255,255,.7);}
