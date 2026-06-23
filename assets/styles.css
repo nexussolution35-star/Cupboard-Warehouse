@@ -89,6 +89,8 @@ h1,h2,h3,h4{font-family:var(--font-head);margin:0;color:var(--ink);font-weight:6
 .btn-sage{background:var(--sage);color:#fff;}
 .btn-sage:hover{background:var(--sage-deep);transform:translateY(-2px);}
 .btn-block{width:100%;justify-content:center;}
+.review-cta{display:flex;justify-content:center;flex-wrap:wrap;gap:18px;margin-top:42px;}
+.review-cta .ic-brand{width:20px;height:20px;flex-shrink:0;}
 
 /* ---- Header ----------------------------------------------------------- */
 .topbar{background:var(--deep);color:#cdd6cf;font-size:13px;}
