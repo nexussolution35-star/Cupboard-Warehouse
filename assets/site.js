@@ -79,10 +79,10 @@
   }
 
   // ---- Brand marquee ----
-  ['marq1', 'marq2', 'marq3'].forEach(function (id) {
-    var el = document.getElementById(id);
-    if (!el) return;
-    var unit = '<div class="marquee-item"><img src="assets/favicon.png" alt=""><span>Cupboard Warehouse</span></div>';
+  document.querySelectorAll('.marquee-track').forEach(function (el) {
+    if (el.innerHTML.trim()) return;
+    var icon = el.getAttribute('data-icon') || 'assets/favicon.png';
+    var unit = '<div class="marquee-item"><img src="' + icon + '" alt=""><span>Cupboard Warehouse</span></div>';
     var html = '';
     for (var i = 0; i < 12; i++) html += unit;
     el.innerHTML = html;
