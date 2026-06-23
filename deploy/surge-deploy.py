@@ -83,7 +83,7 @@ def verify():
     base = f"https://{DOMAIN}"
     paths = ["/", "/about.html", "/services/custom-kitchen-cabinets.html",
              "/service-areas/mbombela.html", "/assets/styles.css",
-             "/assets/logo.svg", "/assets/work/project1.jpg"]
+             "/assets/logo.png", "/assets/work/project1.jpg"]
     ok = True
     for p in paths:
         code = subprocess.run(
