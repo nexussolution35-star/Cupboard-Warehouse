@@ -245,6 +245,10 @@ ul.hero-checks{margin:0;padding:0;}
 .split.rev .split-media{order:2;}
 .split-media img{width:100%;border-radius:4px;box-shadow:var(--shadow-img);}
 .split-media{position:relative;}
+.split-fill{align-items:stretch;}
+.split-fill .split-media{display:flex;}
+.split-fill .split-media img{height:100%;object-fit:cover;}
+@media(max-width:860px){.split-fill .split-media img{height:auto;}}
 .media-tag{position:absolute;left:24px;bottom:24px;background:rgba(33,46,40,.9);color:#fff;
   padding:14px 18px;border-radius:3px;backdrop-filter:blur(6px);}
 .media-tag b{font-family:var(--font-head);font-weight:600;text-transform:uppercase;letter-spacing:.08em;font-size:14px;display:block;}
