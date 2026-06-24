@@ -452,3 +452,9 @@ footer.site{background:var(--deep-2);color:#aeb9b1;}
 .prose p{color:var(--ink);margin:0 0 18px;}
 .prose ul{color:var(--ink);padding-left:20px;margin:0 0 18px;}
 .prose li{margin-bottom:8px;}
+/* service "what's included" checklist */
+.incl-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.incl{display:flex;align-items:flex-start;gap:10px;background:#fff;border:1px solid var(--line);
+  border-radius:4px;padding:14px 16px;font-size:14px;color:var(--ink);line-height:1.4;}
+.incl svg{color:var(--primary);flex-shrink:0;margin-top:1px;}
+@media(max-width:560px){.incl-grid{grid-template-columns:1fr;}}
