@@ -53,9 +53,27 @@
   // ---- Gallery carousel ----
   var track = document.getElementById('carTrack');
   if (track) {
-    var total = 17, idx = 0;
-    var imgs = [];
-    for (var i = 1; i <= total; i++) imgs.push('assets/work/project' + i + '.jpg');
+    var files = [
+      'modern-kitchen-nelspruit.jpg',
+      'fitted-kitchen-cupboards-mbombela.jpg',
+      'white-fitted-kitchen-white-river.jpg',
+      'kitchen-island-granite-top.jpg',
+      'luxury-kitchen-design-nelspruit.jpg',
+      'modern-kitchen-cupboards-hazyview.jpg',
+      'kitchen-renovation-secunda.jpg',
+      'granite-countertops-mpumalanga.jpg',
+      'custom-kitchen-barberton.jpg',
+      'white-kitchen-cupboards-mpumalanga.jpg',
+      'kitchen-renovation-witbank.jpg',
+      'bedroom-cupboards-nelspruit.jpg',
+      'dark-kitchen-renovation-ermelo.jpg',
+      'walk-in-wardrobe-nelspruit.jpg',
+      'quartz-countertops-mbombela.jpg',
+      'kitchen-renovation-malelane.jpg',
+      'modern-fitted-kitchen-mpumalanga.jpg'
+    ];
+    var total = files.length, idx = 0;
+    var imgs = files.map(function (f) { return 'assets/work/' + f; });
     var dotsWrap = document.getElementById('carDots');
     function render() {
       var prev = (idx - 1 + total) % total;
